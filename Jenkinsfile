@@ -14,15 +14,8 @@ pipeline {
                 echo 'bengaluru'
             }
         }
-        stage('remove directory') {
-            steps {
-                sh 'rm -r flower'
-                echo 'flower'
-            }
-        }
         stage('creating directory') {
             steps {
-                sh 'mkdir flower'
                 echo 'mkdir flower'
             }
         }
