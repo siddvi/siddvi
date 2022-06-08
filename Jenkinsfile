@@ -28,8 +28,8 @@ pipeline {
         }
         stage('creating file') {
             steps {
-                sh 'touch file2'
-                echo 'touch file2'
+                sh 'touch file3'
+                echo 'touch file3'
             }
         }
         
